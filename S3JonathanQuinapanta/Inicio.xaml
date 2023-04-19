@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="S3JonathanQuinapanta.Inicio">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="inicio" FontSize="20" HorizontalTextAlignment="Center" />
+            <Image Source="https://www.muycomputer.com/wp-content/uploads/2021/02/android-1000x600.jpg" />
+            <Image Source="ios.png" />
+            <Entry x:Name="txtDato1" Placeholder="ingrese dato 1" />
+            <Entry x:Name="txtDato2" Placeholder="ingrese dato 2" />
+            <Button x:Name="btnAbrir" Text="abrir ventana dos" Clicked="btnAbrir_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
